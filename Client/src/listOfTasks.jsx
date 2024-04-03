@@ -58,6 +58,7 @@ function ListOfTasks() {
   return (
     <>
       <Navbar />
+      <button className="btn btn-primary" onClick={clicked}>Sample Button </button>
       <div className="d-flex flex-wrap">
         <img
           className="img-fluid"

@@ -12,7 +12,7 @@ function AddTask() {
     description: "",
     priority: "High",
     category: allCategories[1],
-    completed: "Not Completed",
+    completed: "false",
   });
 
   const categories = allCategories.slice(1, 13);
@@ -147,6 +147,7 @@ function AddTask() {
               type="text"
               className="form-control"
               id="completed"
+              // value='false'
               disabled
             />
           </div>
